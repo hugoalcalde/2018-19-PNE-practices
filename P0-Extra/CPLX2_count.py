@@ -9,9 +9,9 @@ with open(file) as f :
                 continue
             else:
                 counter_a += line.count("A")
-                counter_c += line.count("B")
+                counter_c += line.count("C")
                 counter_t += line.count("T")
                 counter_g += line.count("G")
-    print("A : " , counter_a)
+    print("A :", counter_a, "\nC :", counter_c , "\nT :", counter_t, "\nG :", counter_g)
 
 
