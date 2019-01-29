@@ -1,0 +1,7 @@
+input_sequence = input("Introduce a valid DNA sequence : ").lower()
+print("Total lenght : ", len(input_sequence))
+print("A : ", input_sequence.count("a"))
+print("C : ", input_sequence.count("c"))
+print("T : ", input_sequence.count("t"))
+print("G : ", input_sequence.count("g"))
+print("Thank you for using this program")
