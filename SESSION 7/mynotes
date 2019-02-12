@@ -1,0 +1,27 @@
+Client ----request---> Server
+Server ----response---> Client
+If there is no client there is no further problems, but if there is no server some problems will arise.
+Both programs(C and S) run from a computer.
+Both programs can be connected through internet. Internet is formed by many computers connected by networks.
+The IP address refers to the interface so that many computers can have different IP addresses.
+The IP address depends on the computer which you connect.
+IP mobile phone: 10.0.54.115
+IP computer: 212.128.253.79
+IP teacher: 212.128.253.64
+The command ping is used to send a message to see if a computer is "alive"
+*ping time to 8.8.8.8:
+time=3.42 ms
+*ping time to my own machine:
+time=0.041 ms
+*ping time to other machine in this room:
+time=0.575 ms
+*ping time to my phone:
+time=39.6 ms
+URL: Identifying a computer interface for humans.
+*IP of www.google.es : 172.217.16.227
+*ping time to google:
+time=3.51 ms
+*IP of www.urjc.es : 212.128.240.50
+*ping time to urjc:
+time=2.14 ms
+Ports are used to localize apps inside a computer. THIS IS A TEXT EXAMPLE FOR ADDING TO MY FILE
