@@ -1,5 +1,5 @@
 """Server of practice 4. It recieves a message from the user and depending on that user
-the server sends the user to an html page or another"""
+the server sends the user to an html page or another """
 
 
 import socket
