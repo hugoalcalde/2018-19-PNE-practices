@@ -4,7 +4,7 @@ the server sends the user to an html page or another"""
 
 import socket
 import termcolor
-import requests
+
 
 # Change this IP to yours!!!!!
 IP = "10.0.2.15"
@@ -27,7 +27,7 @@ def process_client(cs):
     elif msg[1].endswith("/pink") :
         f = open("pink.html")
         contents = f.read()
-    elif msg[1].endswith("/"):  #as we are using the startswith function it is necessary to use the input order
+    elif msg[1].endswith("/"):  
         f = open("index.html")
         contents = f.read()
     else :
