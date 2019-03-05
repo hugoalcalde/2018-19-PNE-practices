@@ -1,8 +1,13 @@
+"""Server of practice 4. It recieves a message from the user and depending on that user
+the server sends the user to an html page or another """
+
+
 import socket
 import termcolor
 
+
 # Change this IP to yours!!!!!
-IP = "212.128.253.102"
+IP = "10.0.2.15"
 PORT = 8088
 MAX_OPEN_REQUESTS = 5
 
@@ -13,15 +18,17 @@ def process_client(cs):
     Parameters:  cs: socket for communicating with the client"""
 
     # Read client message. Decode it as a string
-    msg = cs.recv(2048).decode("utf-8")
-    if msg== "/":
-        f = open("index.html")
-        contents = f.read()
-    elif msg == "/blue":
+    msg = clientsocket.recv(2048).decode("utf-8")
+    print(msg)
+    msg = msg.split(" ")
+    if msg[1].endswith("/blue") :
         f = open("blue.html")
         contents = f.read()
-    elif msg == "/pink":
+    elif msg[1].endswith("/pink") :
         f = open("pink.html")
+        contents = f.read()
+    elif msg[1].endswith("/"):  
+        f = open("index.html")
         contents = f.read()
     else :
         f = open("error.html")
