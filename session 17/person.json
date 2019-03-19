@@ -1,0 +1,13 @@
+[
+  {"Firstname" : "Troll",
+  "Lastname" : "Face",
+  "Age" : 20,
+  "phoneNumber" : [{"Number" :  "1111-1111", "type" :  "home"}, {"Number" : "2222-2222",
+    "type" :  "home"}]} , {"Firstname" : "Hola",
+  "Lastname" : "Adios",
+  "Age" : 18,
+  "phoneNumber" : [{"Number" :  "0001-00192", "type" :  "Home"}] } , {"Firstname" : "Oto",
+  "Lastname" : "Fernandez",
+  "Age" : 20,
+  "phoneNumber" : [{"Number" :  "167-890", "type" :  "home"}, {"Number" : "2222-2222",
+    "type" :  "personal"}]} ]
