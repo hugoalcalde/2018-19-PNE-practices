@@ -2,6 +2,7 @@
 the server sends the user to an html page or another """
 
 
+
 import socket
 import termcolor
 
